@@ -37,7 +37,7 @@
 // // import { ComputerVisionClient } from '@azure/cognitiveservices-computervision';
 // // import { ApiKeyCredentials } from '@azure/ms-rest-js';
 
-// // const apiKey = '6f94d5eb596a46bdbbf39a7f4850c941';
+// // const apiKey = 'APIKEY';
 // // const client = new ComputerVisionClient(new ApiKeyCredentials({ inHeader: { 'Ocp-Apim-Subscription-Key': apiKey } }), "https://centralindia.api.cognitive.microsoft.com/");
 
 // // const Apps = () => {
@@ -127,12 +127,12 @@
 // import { ApiKeyCredentials } from '@azure/ms-rest-js';
 // import { Configuration, OpenAIApi } from "openai";
 
-// const apiKey = '6f94d5eb596a46bdbbf39a7f4850c941';
+// const apiKey = 'APIKEY';
 // const client = new ComputerVisionClient(new ApiKeyCredentials({ inHeader: { 'Ocp-Apim-Subscription-Key': apiKey } }), "https://centralindia.api.cognitive.microsoft.com/");
 
 // const configuration = new Configuration({
-//   // organization: "org-KlEk9KIk1kL5rJD4lf7fs06K",
-//   apiKey: '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',
+//   // organization: "ORGANIZATIONKEY",
+//   apiKey: 'APIKEY',
 // });
 // const openai = new OpenAIApi(configuration);
 
