@@ -248,11 +248,11 @@ import { ComputerVisionClient } from '@azure/cognitiveservices-computervision';
 import { ApiKeyCredentials } from '@azure/ms-rest-js';
 import { Configuration, OpenAIApi } from "openai";
 
-const apiKey = '6f94d5eb596a46bdbbf39a7f4850c941';
+const apiKey = 'APIKEY';
 const client = new ComputerVisionClient(new ApiKeyCredentials({ inHeader: { 'Ocp-Apim-Subscription-Key': apiKey } }), "https://centralindia.api.cognitive.microsoft.com/");
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: 'APIKEY',
 });
 const openai = new OpenAIApi(configuration);
 
